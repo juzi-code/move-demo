@@ -1,0 +1,10 @@
+[package]
+name = "move-demo-1"
+version = "0.0.0"
+
+[dependencies]
+MoveStdlib = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/move-stdlib' }
+AptosStdlib = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/aptos-stdlib' }
+
+[addresses]
+std =  "0x1"
